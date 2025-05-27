@@ -1,0 +1,63 @@
+# Titanic Dataset EDA
+
+This repository contains a Python script that performs **Exploratory Data Analysis (EDA)** on a cleaned version of the Titanic dataset. It uses powerful data visualization libraries to uncover insights about survival rates, passenger demographics, and fare distributions.
+
+## Dataset
+
+The script expects a **cleaned dataset** named:
+
+cleaned_titanic.csv
+
+## Features and Visualizations:
+
+* Basic dataset summary and statistics
+* Survival count plot
+* Age and fare distributions
+* Survival by passenger class (Pclass)
+* Boxplots:
+
+  * Age vs Survival
+  * Fare vs Pclass
+* Correlation matrix heatmap
+* Pairplot of key features
+* Interactive Plotly scatter plot for Age vs Fare colored by Survival
+
+## How to Run
+
+Simply run the script using any Python IDE or from the terminal:
+
+Make sure `cleaned_titanic.csv` is in the same folder.
+
+## Requirements
+
+* pandas
+* matplotlib
+* seaborn
+* plotly
+
+## Key Insights
+- Females and first-class passengers had higher survival rates.
+- Children had better survival chances.
+- Fare is correlated with survival.
+- Age and Cabin had missing values.
+- Pclass 1 had the highest survival rate.
+- Fare and Survival show a slight positive correlation.
+- Sex_male (inverse correlation) indicates females survived more.
+- Age distribution shows more survivors were younger on average.
+
+## Sample Output
+
+* Survival Count Barplot
+* Age Distribution Histogram
+* Fare Distribution Histogram
+* Survival by Class
+* Correlation Heatmap
+* Interactive Plot: Age vs Fare by Survival
+
+## Author
+Sonali Paliwal
+(https://github.com/Sonali18-tech) https://github.com/Sonali18-tech
+
+
+[![GitHub](https://img.shields.io/badge/View_on-GitHub-blue?logo=github)](https://github.com/Sonali18-tech/titanic-data-cleaning-task1)
+
